@@ -44,19 +44,10 @@ Python manage.py makemigrations
 ```
 python manage.py migrate
 ```
-
-
-
-## Docker Deployment
-* NOTE: Docker Desktop is needed to run with docker 
-
-create Docker Image
-```bash
-docker build -t django .
+finally to run django webapp
 ```
-run the image 
-```bash
-docker run -p 5000:5000 flaskapp
+python manage.py runserver
 ```
+
 
 
